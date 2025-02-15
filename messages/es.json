@@ -1,0 +1,57 @@
+{
+  "HomePage": {
+    "presentation": "Hola, soy",
+    "description": "Desarrollador Frontend enfocado en crear interfaces modernas, eficientes y de alto rendimiento, aprovechando mi conocimiento y las mejores prácticas.",
+    "about": "Sobre mí",
+    "summary": "Apasionado por la tecnología, decidí adentrarme en el mundo del desarrollo web. Al mismo tiempo, estoy cursando la carrera de Ciencia de Datos en la Universidad Nacional del Litoral.",
+    "workExperience": "Experiencia Laboral",
+    "work": {
+      "freelance": {
+        "title": "Freelance FULLSTACK",
+        "description": "He desarrollado proyectos como freelancer, entre ellos un sistema de una cafeteria y numerosas landings para organizaciones, personas. He trabajado con tecnologías como React, TailwindCSS, Next.js, Node.js, Express, MongoDB, PostgreSQL, entre otras."
+      },
+      "qualita": {
+        "title": "Frontend Developer - Contract",
+        "description": "Colaboración en el desarrollo del frontend para una aplicación de courier privado como parte de un equipo multidisciplinario. Contribuí en la creación e implementación de componentes clave utilizando tecnologías como Next.js, TailwindCSS y Zustand, asegurando una experiencia de usuario eficiente y atractiva."
+      },
+      "swaply": {
+        "title": "Frontend Developer - Internship",
+        "description": "Participación en una internship como parte de un equipo de desarrollo enfocado en el diseño y mantenimiento de una plataforma web. Contribuí en la implementación y actualización de componentes y funcionalidades utilizando Next.js, React, JavaScript y TailwindCSS. Desarrollé la entrega de emails con Nodemailer, incluyendo los estilos correspondientes con HTML y CSS. Además, optimicé la experiencia de usuario mediante la creación de interfaces web responsivas y accesibles, colaborando activamente en la evolución continua del producto."
+      }
+    },
+    "education": {
+      "title": "Educación",
+      "ibr": {
+        "degree": "Bachillerato en Economía y Administración",
+        "description": "Educación integral en principios de economía y administración de empresas"
+      },
+      "unl": {
+        "degree": "Ciencia de Datos",
+        "description": "Actualmente cursando la carrera de Ciencia de Datos, enfocándome en análisis estadístico, aprendizaje automático y visualización de datos"
+      }
+    },
+    "skills": "Habilidades",
+    "projects": {
+      "title": "Proyectos",
+      "description": "Mira mis últimos trabajos",
+      "summary": "Trabajé en diversos proyectos, desde SPA hasta aplicaciones más complejas. Acá hay un resumen de las que más me gustan.",
+      "easy-finance": {
+        "description": "Plataforma de finanzas personales que utiliza googlesheet para mostrar los datos de los usuarios en gráficos y tablas."
+      },
+      "netflix-clone": {
+        "description": "Copia a nivel de diseño de la plataforma de streaming Netflix, con funcionalidades básicas como agregar a favorito peliculas, categorías, búsqueda de películas y series."
+      },
+      "foxdo-list": {
+        "description": "To-Do list con tematica de zorros, con funcionalidades como agregar tareas, eliminar, cambiar títulos."
+      },
+      "leyen-cafe": {
+        "description": "Sistema para una cafeteria que permite a los usuarios canjear puntos por productos, ver el menú, ver el historial de compras, entre otras funcionalidades."
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Ponte en contacto",
+      "summary": "Si querés mantenerte en contacto conmigo, puedes hablarme por "
+    }
+  }
+}

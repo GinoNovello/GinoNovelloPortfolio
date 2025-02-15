@@ -1,0 +1,58 @@
+{
+  "HomePage": {
+    "presentation": "Hi, i'm",
+    "description": "Frontend Developer focused on creating modern, efficient, and high-performance interfaces, leveraging my knowledge and best practices.",
+    "about": "About",
+    "summary": "Passionate about technology, I decided to delve into the world of web development. At the same time, I am pursuing a degree in Data Science at the National University of the Litoral.",
+    "workExperience": "Work Experience",
+    "work": {
+      "freelance": {
+        "title": "Freelance FULLSTACK",
+        "description": "I have developed projects as a freelancer, including a cafe management system and numerous landings for organizations and individuals. I have worked with technologies such as React, TailwindCSS, Next.js, Node.js, Express, MongoDB, PostgreSQL, among others."
+      },
+      "qualita": {
+        "title": "Frontend Developer - Contract",
+        "description": "Collaboration in frontend development for a private courier application as part of a multidisciplinary team. I contributed to the creation and implementation of key components using technologies such as Next.js, TailwindCSS, and Zustand, ensuring an efficient and attractive user experience."
+      },
+      "swaply": {
+        "title": "Frontend Developer - Internship",
+        "description": "Participated in an internship as part of a development team focused on designing and maintaining a web platform. Contributed to the implementation and updating of components and functionalities using Next.js, React, JavaScript, and TailwindCSS. Developed email delivery with Nodemailer, including corresponding styles with HTML and CSS. Additionally, optimized user experience through the creation of responsive and accessible web interfaces, actively collaborating in the continuous evolution of the product."
+      }
+    },
+
+    "education": {
+      "title": "Education",
+      "ibr": {
+        "degree": "Bachelor in Economics and Administration",
+        "description": "Comprehensive education in economics and business administration principles"
+      },
+      "unl": {
+        "degree": "Data Science",
+        "description": "Currently pursuing a degree in Data Science, focusing on statistical analysis, machine learning, and data visualization"
+      }
+    },
+    "skills": "Skills",
+    "projects": {
+      "title": "Projects",
+      "description": "Check out my latest work",
+      "summary": "I worked on various projects, ranging from SPAs to more complex applications. Here's a summary of the ones I like the most.",
+      "easy-finance": {
+        "description": "Personal finance platform that uses Google Sheets to display user data in charts and tables."
+      },
+      "netflix-clone": {
+        "description": "Design-level copy of the Netflix streaming platform, with basic functionalities such as adding movies to favorites, categories, and movie/series search."
+      },
+      "foxdo-list": {
+        "description": "Fox-themed To-Do list with functionalities like adding tasks, deleting, and changing titles."
+      },
+      "leyen-cafe": {
+        "description": "System for a coffee shop that allows users to redeem points for products, view the menu, view purchase history, among other functionalities."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Get in touch",
+      "summary": "If you want to get in touch with me, you can shoot me on"
+    }
+  }
+}
