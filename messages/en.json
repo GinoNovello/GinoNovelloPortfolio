@@ -31,7 +31,18 @@
         "description": "Currently pursuing a degree in Data Science, focusing on statistical analysis, machine learning, and data visualization"
       }
     },
-    "skills": "Skills",
+    "skills": {
+      "title": "Skills",
+      "description":{
+        "typescript": "Javascript but better",
+        "react": "JavaScript library",
+        "nextjs": "React framework",
+        "nodejs": "JavaScript runtime",
+        "tailwind": "CSS framework",
+        "git": "Version control system",
+        "supabase": "Backend tool"
+      }
+    },
     "projects": {
       "title": "Projects",
       "description": "Check out my latest work",

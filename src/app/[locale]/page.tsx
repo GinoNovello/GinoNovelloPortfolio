@@ -2,6 +2,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import { SkillsCard } from "@/components/skills-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { EDUCATION_DATA } from "@/constants/education";
@@ -102,12 +103,12 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold">{t("skills")}</h2>
+            <h2 className="text-xl font-bold">{t("skills.title")}</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
             {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
+              <BlurFade key={id} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <SkillsCard key={id} cardInfo={skill} description={t(`skills.description.${skill.translationKey}`)} />
               </BlurFade>
             ))}
           </div>
