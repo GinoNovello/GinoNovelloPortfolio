@@ -6,14 +6,14 @@ interface ProjectLink {
   icon: JSX.Element | string;
 }
 
-interface ProjectEntry {
+export interface ProjectEntry {
   id: string;
   title: string;
   href: string;
   dates: string;
   active: boolean;
   description: string;
-  technologies: readonly string[];
+  technologies: { value: string; badge: string }[];
   links: readonly ProjectLink[];
   image: string;
   video: string;
@@ -28,11 +28,11 @@ export const PROJECT_DATA: readonly ProjectEntry[] = [
     active: true,
     description: "projects.easy-finance.description",
     technologies: [
-      "Next.js",
-      "Typescript",
-      "TailwindCSS",
-      "Shadcn UI",
-      "Google Sheets",
+      { value: "Next.js", badge: "nextjs" },
+      { value: "Typescript", badge: "typescript" },
+      { value: "TailwindCSS", badge: "tailwindcss" },
+      { value: "Shadcn UI", badge: "shadcnui" },
+      { value: "Google Sheets", badge: "googlesheets" },
     ],
     links: [
       {
@@ -52,10 +52,10 @@ export const PROJECT_DATA: readonly ProjectEntry[] = [
     active: true,
     description: "projects.netflix-clone.description",
     technologies: [
-      "React",
-      "Typescript",
-      "TailwindCSS",
-      "Shadcn UI",
+      { value: "React", badge: "react" },
+      { value: "Typescript", badge: "typescript" },
+      { value: "TailwindCSS", badge: "tailwindcss" },
+      { value: "Shadcn UI", badge: "shadcnui" },
     ],
     links: [
       {
@@ -80,10 +80,10 @@ export const PROJECT_DATA: readonly ProjectEntry[] = [
     active: true,
     description: "projects.foxdo-list.description",
     technologies: [
-      "React",
-      "Typescript",
-      "TailwindCSS",
-      "Shadcn UI",
+      { value: "React", badge: "react" },
+      { value: "Typescript", badge: "typescript" },
+      { value: "TailwindCSS", badge: "tailwindcss" },
+      { value: "Shadcn UI", badge: "shadcnui" },
     ],
     links: [
       {
@@ -108,13 +108,13 @@ export const PROJECT_DATA: readonly ProjectEntry[] = [
     active: true,
     description: "projects.leyen-cafe.description",
     technologies: [
-      "React",
-      "Typescript",
-      "TailwindCSS",
-      "Shadcn UI",
-      "Supabase",
-      "Zustand",
-      "Resend",
+      { value: "React", badge: "react" },
+      { value: "Typescript", badge: "typescript" },
+      { value: "TailwindCSS", badge: "tailwindcss" },
+      { value: "Shadcn UI", badge: "shadcnui" },
+      { value: "Supabase", badge: "supabase" },
+      { value: "Zustand", badge: "zustand" },
+      { value: "Resend", badge: "resend" },
     ],
     links: [
       {

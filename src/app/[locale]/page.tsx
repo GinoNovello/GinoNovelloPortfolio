@@ -105,10 +105,10 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">{t("skills.title")}</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
+          <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
             {DATA.skills.map((skill, id) => (
               <BlurFade key={id} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <SkillsCard key={id} cardInfo={skill} description={t(`skills.description.${skill.translationKey}`)} />
+                <SkillsCard key={id} cardInfo={skill} />
               </BlurFade>
             ))}
           </div>
@@ -138,11 +138,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY * 12 + index * 0.05}
               >
                 <ProjectCard
+                  id={project.id}
+                  active={project.active}
                   href={project.href}
                   title={project.title}
                   description={t(`projects.${project.id}.description`)}
                   dates={project.dates}
-                  tags={project.technologies}
+                  technologies={project.technologies}
                   image={project.image}
                   video={project.video}
                   links={project.links}

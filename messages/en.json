@@ -32,16 +32,7 @@
       }
     },
     "skills": {
-      "title": "Skills",
-      "description":{
-        "typescript": "Javascript but better",
-        "react": "JavaScript library",
-        "nextjs": "React framework",
-        "nodejs": "JavaScript runtime",
-        "tailwind": "CSS framework",
-        "git": "Version control system",
-        "supabase": "Backend tool"
-      }
+      "title": "Skills"
     },
     "projects": {
       "title": "Projects",

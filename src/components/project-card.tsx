@@ -1,36 +1,37 @@
 "use client";
 
-import { Badge } from "@/components/ui/badge";
+import { Badge, BadgeProps } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { ProjectEntry } from "@/constants/projects";
 import { Globe, Github } from "lucide-react";
 import Link from "next/link";
 import { ReactNode } from "react";
 
-interface ProjectCardProps {
-  href: string;
-  title: string;
-  description: string;
-  dates: string;
-  tags: readonly string[];
-  image: string;
-  video: string;
-  links: readonly {
-    type: string;
-    href: string;
-    icon: string | ReactNode;
-  }[];
-}
+// interface ProjectCardProps {
+//   href: string;
+//   title: string;
+//   description: string;
+//   dates: string;
+//   tags: readonly string[];
+//   image: string;
+//   video: string;
+//   links: readonly {
+//     type: string;
+//     href: string;
+//     icon: string | ReactNode;
+//   }[];
+// }
 
 export function ProjectCard({
   href,
   title,
   description,
   dates,
-  tags,
+  technologies,
   image,
   video,
   links,
-}: ProjectCardProps) {
+}: ProjectEntry) {
   const renderIcon = (icon: string | ReactNode) => {
     if (typeof icon === "string") {
       switch (icon) {
@@ -90,9 +91,9 @@ export function ProjectCard({
         <p className="text-sm text-muted-foreground mb-4">{dates}</p>
         <p className="text-sm text-muted-foreground mb-4">{description}</p>
         <div className="flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <Badge key={tag} variant="secondary">
-              {tag}
+          {technologies.map((tag) => (
+            <Badge key={tag.value} variant={tag.badge as BadgeProps["variant"]}>
+              {tag.value}
             </Badge>
           ))}
         </div>

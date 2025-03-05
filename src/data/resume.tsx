@@ -20,6 +20,12 @@ export const DATA = {
     bgColor: "bg-[#3178C6]/20",
   },
   {
+    name: "Javascript",
+    translationKey: "javascript",
+    imageUrl: "/logos/javascript.svg",
+    bgColor: "bg-[#F7DF1E]/20",
+  },
+  {
     name: "React",
     translationKey: "react",
     imageUrl: "/logos/react.svg",
@@ -32,16 +38,28 @@ export const DATA = {
     bgColor: "bg-dark-200/10 dark:bg-white/10",
   },
   {
-    name:"NodeJS",
-    translationKey: "nodejs",
-    imageUrl: "/logos/nodejs.svg",
-    bgColor: "bg-[#339933]/20",
+    name: "Svelte",
+    translationKey: "svelte",
+    imageUrl: "/logos/svelte.svg",
+    bgColor: "bg-[#FF3E00]/20",
+  },
+  {
+    name: "Vue",
+    translationKey: "vue",
+    imageUrl: "/logos/vue.svg",
+    bgColor: "bg-[#42B883]/20",
   },
   {
     name: "Tailwind",
     translationKey: "tailwind",
     imageUrl: "/logos/tailwind.svg",
     bgColor: "bg-[#0EA5E9]/20",
+  },
+  {
+    name:"NodeJS",
+    translationKey: "nodejs",
+    imageUrl: "/logos/nodejs.svg",
+    bgColor: "bg-[#339933]/20",
   },
   {
     name: "Git",

@@ -31,16 +31,7 @@
       }
     },
     "skills": {
-      "title": "Habilidades",
-      "description": {
-        "typescript": "JavaScript pero mejor",
-        "react": "Biblioteca de JavaScript",
-        "nextjs": "Framework de React",
-        "nodejs": "Entorno de ejecución de JavaScript",
-        "tailwind": "Framework de CSS",
-        "git": "Sistema de control de versiones",
-        "supabase": "Herramienta de backend"
-      }
+      "title": "Habilidades"
     },
     "projects": {
       "title": "Proyectos",
