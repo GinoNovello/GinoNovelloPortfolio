@@ -7,16 +7,20 @@
     "workExperience": "Experiencia Laboral",
     "work": {
       "freelance": {
-        "title": "Freelance FULLSTACK",
+        "title": "Desarrollador Fullstack Freelance",
         "description": "He desarrollado proyectos como freelancer, entre ellos un sistema de una cafeteria y numerosas landings para organizaciones, personas. He trabajado con tecnologías como React, TailwindCSS, Next.js, Node.js, Express, MongoDB, PostgreSQL, entre otras."
       },
       "qualita": {
-        "title": "Frontend Developer - Contract",
+        "title": "Desarrollador Frontend - Contrato",
         "description": "Colaboración en el desarrollo del frontend para una aplicación de courier privado como parte de un equipo multidisciplinario. Contribuí en la creación e implementación de componentes clave utilizando tecnologías como Next.js, TailwindCSS y Zustand, asegurando una experiencia de usuario eficiente y atractiva."
       },
       "swaply": {
-        "title": "Frontend Developer - Internship",
+        "title": "Desarrollador Frontend - Pasantía",
         "description": "Participación en una internship como parte de un equipo de desarrollo enfocado en el diseño y mantenimiento de una plataforma web. Contribuí en la implementación y actualización de componentes y funcionalidades utilizando Next.js, React, JavaScript y TailwindCSS. Desarrollé la entrega de emails con Nodemailer, incluyendo los estilos correspondientes con HTML y CSS. Además, optimicé la experiencia de usuario mediante la creación de interfaces web responsivas y accesibles, colaborando activamente en la evolución continua del producto."
+      },
+      "tropware": {
+        "title": "Desarrollador Fullstack",
+        "description": "Nextjs - Typescript- Svelte - Git - Convex - PayloadCMS"
       }
     },
     "education": {

@@ -17,6 +17,10 @@
       "swaply": {
         "title": "Frontend Developer - Internship",
         "description": "Participated in an internship as part of a development team focused on designing and maintaining a web platform. Contributed to the implementation and updating of components and functionalities using Next.js, React, JavaScript, and TailwindCSS. Developed email delivery with Nodemailer, including corresponding styles with HTML and CSS. Additionally, optimized user experience through the creation of responsive and accessible web interfaces, actively collaborating in the continuous evolution of the product."
+      },
+      "tropware": {
+        "title": "Fullstack Developer",
+        "description": "Nextjs - Typescript- Svelte - Git - Convex - PayloadCMS"
       }
     },
 
